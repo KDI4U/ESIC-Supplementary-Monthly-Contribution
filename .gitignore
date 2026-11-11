@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+.pytest_cache/
+.mypy_cache/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables & Secrets
+.env
+*.env
+!.env.example
+
+# Credentials & Sensitive Excel Spreadsheets (PROTECTED)
+*.xlsx
+*.xls
+*.csv
+!*.example.csv
+!*.example.xlsx
+
+# Runtime Data, Captchas & Downloads
+data/
+**/data/
+**/data/**
+**/captcha/
+**/captcha/**
+screenshots/
+**/screenshots/
+**/screenshots/**
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
